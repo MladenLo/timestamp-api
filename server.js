@@ -16,4 +16,4 @@ app.set('views', './views');
 //Defining routes
 app.use('/', indexRoute);
 
-app.listen(8080);
+app.listen(process.env.PORT || 8000);
